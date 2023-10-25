@@ -92,9 +92,9 @@ public class GetUserInfoScene
 	private void addInfo(String income, String housing, String food, String utility, 
 						String insurance, String transport, String goal, String retirement)
 	{
-		String url = "jdbc:mysql://localhost:3306/user_info";
+		String url = "jdbc:mysql://localhost:3000/user_info";
 		String username = "root";
-		String password = "Troy12180?";
+		String password = "password";
 		
 		try 
 		{
